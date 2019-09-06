@@ -1,0 +1,41 @@
+.parentSignup {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.signup {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 1000px;
+    background: #2892D7;
+    -webkit-box-shadow: 7px 0px 33px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 0px 33px -14px rgba(0,0,0,0.75);
+    box-shadow: 7px 0px 33px -14px rgba(0,0,0,0.75);
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+.input1{
+    width: 375px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 4px;
+    padding-left: 25px;
+    background: transparent;
+    outline: none;
+    border: 1px solid black;
+    color: white;
+}
+    
+@media (min-width: 1700px){
+    .parentSignup {
+        padding-top: 150px
+    }
+    
+}

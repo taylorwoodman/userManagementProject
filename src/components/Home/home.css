@@ -1,0 +1,55 @@
+.welcome{
+    display: flex;
+    height: 40px;
+    width: 350px;
+    margin-bottom: 50px;
+    font-weight: 400px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+
+.sideBar{
+    width: 350px;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.25);
+    font-size: 25px;
+    color: white;
+}
+
+.currentUser{
+    display: flex;
+    height: 40px;
+    width: 350px;
+    margin: 20px;
+    font-weight: 400px;
+    text-decoration: underline;
+}
+
+.homeInfo{
+    display: flex;
+    height: 40px;
+    width: 350px;
+    margin: 10px;
+    font-weight: 400px;
+}
+
+.homeInfo1{
+    display: flex;
+    height: 40px;
+    width: 350px;
+    font-weight: 400px;
+    margin-left: 10px;
+}
+
+.parentHome{
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: none;
+    width: 100vw;
+    height: 100vh;
+}
